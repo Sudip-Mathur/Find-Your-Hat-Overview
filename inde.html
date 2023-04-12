@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+        <title>Find Your Hat Game</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <script src="ja.js" type='text/javascript' defer></script>
+    </head>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    td {
+      width: 20px;
+      height: 20px;
+      border: 1px solid black;
+      text-align: center;
+      font-size: 20px;
+    }
+    .start {
+      background-color: #a9a9a9;
+    }
+    .hole {
+      background-color: #000080;
+      color: white;
+    }
+    .hat {
+      background-color: #ffa500;
+    }
+    .current {
+      background-color: #00ff00;
+    }
+  </style>
+</head>
+<body>
+  <h1>Find Your Hat Game</h1>
+  <p>Use arrow keys to move around. Find the hat (^) without falling in a hole (O).</p>
+  <table id="gameTable"></table>
+  <button id="startButton">Start Game</button>
+  <p id="message"></p>
+</body>
+</html>

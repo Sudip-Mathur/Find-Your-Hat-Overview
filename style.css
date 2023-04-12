@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .start {
+    background-color: lightgray;
+  }
+  
+  .hole {
+    background-color: black;
+  }
+  
+  .hat {
+    background-color: red;
+  }
+  
+  .current {
+    background-color: green;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  #message {
+    font-size: 20px;
+    margin: 10px;
+  }
+  
